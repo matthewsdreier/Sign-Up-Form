@@ -1,0 +1,13 @@
+body {
+    display: flex;
+}
+
+.sidebar {
+    background-image: url("./Assets/sidebar_image.jpg");
+    background-size: cover;
+}
+
+.fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

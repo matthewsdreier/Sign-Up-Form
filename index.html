@@ -4,50 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Sign-Up Form</title>
 </head>
 <body>
     <div class="sidebar">
-        <div class="logo">
-            
+        <div class="hero">
+            <p>Odin</p>
+            <img src="./Assets/Odin_logo.png" alt="Odin Logo">
         </div>
         <p>Photo by <a href="">ARTIST</a> on <a href="">PLATFORM</a></p>
     </div>
-    <div class="main">
-        <form action="post.html" method="post">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
-            <p>You <i>know</i> you want to.</p>
 
-            <div>
-                <p>Let's do this!</p>
+    <form action="post.html" method="post">
+        <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
+        <p>You <i>know</i> you want to.</p>
+
+        <div>
+            <p>Let's do this!</p>
+            
+            <div class="fields">
+                <div class="grid">
+                    <label for="first">FIRST NAME</label>
+                    <input type="text" id="first">
+                </div>
+
+                <div class="grid">
+                    <label for="last">LAST NAME</label>
+                    <input type="text" id="last">
+                </div>
+
+                <div class="grid">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email">
+                </div>
+
+                <div class="grid">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type = "tel" id="phone">
+                </div>
                 
-                <label for="first">FIRST NAME</label>
-                <input type="text" id="first">
+                <div class="grid">
+                    <label for="password">PASSWORD</label>
+                    <input type="password" id="password">
+                </div>
 
-                <label for="last">LAST NAME</label>
-                <input type="text" id="last">
-
-                <label for="email">EMAIL</label>
-                <input type="email" id="email">
-
-                <label for="phone">PHONE NUMBER</label>
-                <input type = "tel" id="phone">
-                
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password">
-
-                <label for="confirm">CONFIRM PASSWORD</label>
-                <input type="password" id="confirm">
+                <div class="grid">
+                    <label for="confirm">CONFIRM PASSWORD</label>
+                    <input type="password" id="confirm">
+                </div>
             </div>
-
-            <button type="submit">Create Account</button>
-            <p>ALready have an account? <a href="index.html">Log in</a></p>
-
-        </form>
-
-        <div class="submit">
-
         </div>
+
+        <button type="submit">Create Account</button>
+        <p>ALready have an account? <a href="index.html">Log in</a></p>
+
+    </form>
+
+    <div class="submit">
+
     </div>
 </body>
 </html>
